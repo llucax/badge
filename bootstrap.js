@@ -19,7 +19,7 @@ const STYLE_SMALL = 2;
 const MODE_BLACKLIST = 1;
 const MODE_WHITELIST = 2;
 
-const TITLE_REGEXP = /[\(\[]([0-9]{1,3})(\+?)( unread)?[\)\]]/;
+const TITLE_REGEXP = /[\(\[]([0-9]{1,3})(\+?)(\/([0-9]{1,3})(\+?))?( unread)?[\)\]]/;
 
 const BROWSER_WINDOW = 'navigator:browser';
 const IDLE_TIMEOUT = 15;
